@@ -2227,9 +2227,6 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/plating,
 /area/outpost/research/dock)
-"eT" = (
-/turf/simulated/floor/airless,
-/area/mine/explored)
 "eU" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -2269,9 +2266,6 @@
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/outpost/research/hallway)
-"eZ" = (
-/turf/simulated/floor/airless/lava,
-/area/mine/explored)
 "fa" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced,
@@ -2576,12 +2570,6 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
 /area/outpost/research/disposal)
-"fK" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/airless,
-/area/mine/explored)
 "fL" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/simulated/floor/plating,
@@ -2590,7 +2578,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/airless/lava,
+/turf/simulated/floor/asteroid,
 /area/mine/explored)
 "fN" = (
 /obj/structure/disposalpipe/segment{
@@ -61037,8 +61025,8 @@ dw
 bd
 bd
 ac
-eT
-fK
+ac
+fM
 aE
 gX
 dS
@@ -61293,9 +61281,9 @@ ac
 bd
 bd
 bd
-eT
-eZ
-fK
+ac
+ac
+fM
 aE
 gY
 gS
@@ -61551,7 +61539,7 @@ bd
 ab
 bd
 ac
-eZ
+ac
 fN
 fj
 gB

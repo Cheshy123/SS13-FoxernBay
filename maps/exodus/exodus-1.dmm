@@ -23792,6 +23792,7 @@
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},
+/obj/machinery/media/jukebox,
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
 "aSU" = (
@@ -34745,7 +34746,8 @@
 /area/medical/reception)
 "bog" = (
 /obj/structure/disposalpipe/segment,
-/turf/simulated/wall,
+/obj/effect/wingrille_spawn/reinforced,
+/turf/simulated/floor/plating,
 /area/quartermaster/storage)
 "boh" = (
 /obj/structure/disposalpipe/segment,
@@ -35169,12 +35171,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/disposal)
-"bpc" = (
-/obj/effect/landmark/map_data{
-	height = 1
-	},
-/turf/space,
-/area/space)
 "bpd" = (
 /obj/structure/table/standard,
 /obj/item/weapon/hand_labeler,
@@ -72054,7 +72050,7 @@ aaa
 aaa
 aaa
 aaa
-bpc
+aaa
 "}
 (2,1,1) = {"
 aaa
@@ -93518,7 +93514,7 @@ bfU
 brd
 bhE
 brd
-bdP
+aKR
 bpq
 bri
 btc

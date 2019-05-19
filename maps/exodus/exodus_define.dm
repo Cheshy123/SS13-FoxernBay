@@ -13,7 +13,7 @@
 	contact_levels = list(1,3,5)
 	player_levels = list(1,3,4,5,6)
 	sealed_levels = list(5)
-	empty_levels = list(5)
+	empty_levels = list(6)
 	accessible_z_levels = list("1" = 5, "3" = 10, "4" = 15, "6" = 60)
 	base_turf_by_z = list("5" = /turf/simulated/floor/asteroid) // Moonbase
 
