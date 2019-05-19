@@ -91,6 +91,8 @@
 			return global.SMALLSIZEBLOCK;
 		if("SSgarbage")
 			return global.SSgarbage;
+		if("SSlighting")
+			return global.SSlighting;
 		if("TELEBLOCK")
 			return global.TELEBLOCK;
 		if("TWITCHBLOCK")
@@ -297,6 +299,8 @@
 			return global.breach_brute_descriptors;
 		if("breach_burn_descriptors")
 			return global.breach_burn_descriptors;
+		if("button_sound")
+			return global.button_sound;
 		if("cable_list")
 			return global.cable_list;
 		if("cached_icons")
@@ -721,18 +725,6 @@
 			return global.lighter_sound;
 		if("lighting_overlays_initialised")
 			return global.lighting_overlays_initialised;
-		if("lighting_update_corners")
-			return global.lighting_update_corners;
-		if("lighting_update_corners_old")
-			return global.lighting_update_corners_old;
-		if("lighting_update_lights")
-			return global.lighting_update_lights;
-		if("lighting_update_lights_old")
-			return global.lighting_update_lights_old;
-		if("lighting_update_overlays")
-			return global.lighting_update_overlays;
-		if("lighting_update_overlays_old")
-			return global.lighting_update_overlays_old;
 		if("limb_icon_cache")
 			return global.limb_icon_cache;
 		if("list_of_ais")
@@ -1223,6 +1215,8 @@
 			return global.swapmaps_mode;
 		if("swing_hit_sound")
 			return global.swing_hit_sound;
+		if("switch_sound")
+			return global.switch_sound;
 		if("syndicate_access")
 			return global.syndicate_access;
 		if("syndicate_code_phrase")
@@ -1500,6 +1494,8 @@
 			global.SMALLSIZEBLOCK=newval;
 		if("SSgarbage")
 			global.SSgarbage=newval;
+		if("SSlighting")
+			global.SSlighting=newval;
 		if("TELEBLOCK")
 			global.TELEBLOCK=newval;
 		if("TWITCHBLOCK")
@@ -1706,6 +1702,8 @@
 			global.breach_brute_descriptors=newval;
 		if("breach_burn_descriptors")
 			global.breach_burn_descriptors=newval;
+		if("button_sound")
+			global.button_sound=newval;
 		if("cable_list")
 			global.cable_list=newval;
 		if("cached_icons")
@@ -2130,18 +2128,6 @@
 			global.lighter_sound=newval;
 		if("lighting_overlays_initialised")
 			global.lighting_overlays_initialised=newval;
-		if("lighting_update_corners")
-			global.lighting_update_corners=newval;
-		if("lighting_update_corners_old")
-			global.lighting_update_corners_old=newval;
-		if("lighting_update_lights")
-			global.lighting_update_lights=newval;
-		if("lighting_update_lights_old")
-			global.lighting_update_lights_old=newval;
-		if("lighting_update_overlays")
-			global.lighting_update_overlays=newval;
-		if("lighting_update_overlays_old")
-			global.lighting_update_overlays_old=newval;
 		if("limb_icon_cache")
 			global.limb_icon_cache=newval;
 		if("list_of_ais")
@@ -2632,6 +2618,8 @@
 			global.swapmaps_mode=newval;
 		if("swing_hit_sound")
 			global.swing_hit_sound=newval;
+		if("switch_sound")
+			global.switch_sound=newval;
 		if("syndicate_access")
 			global.syndicate_access=newval;
 		if("syndicate_code_phrase")
@@ -2863,6 +2851,7 @@
 	"SKILLS",
 	"SMALLSIZEBLOCK",
 	"SSgarbage",
+	"SSlighting",
 	"TELEBLOCK",
 	"TWITCHBLOCK",
 	"Tier1Runes",
@@ -2966,6 +2955,7 @@
 	"borers",
 	"breach_brute_descriptors",
 	"breach_burn_descriptors",
+	"button_sound",
 	"cable_list",
 	"cached_icons",
 	"cached_space",
@@ -3178,12 +3168,6 @@
 	"light_type_cache",
 	"lighter_sound",
 	"lighting_overlays_initialised",
-	"lighting_update_corners",
-	"lighting_update_corners_old",
-	"lighting_update_lights",
-	"lighting_update_lights_old",
-	"lighting_update_overlays",
-	"lighting_update_overlays_old",
 	"limb_icon_cache",
 	"list_of_ais",
 	"listening_objects",
@@ -3429,6 +3413,7 @@
 	"swapmaps_loaded",
 	"swapmaps_mode",
 	"swing_hit_sound",
+	"switch_sound",
 	"syndicate_access",
 	"syndicate_code_phrase",
 	"syndicate_code_response",
