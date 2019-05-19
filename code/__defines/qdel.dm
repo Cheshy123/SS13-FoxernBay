@@ -15,3 +15,7 @@
 
 #define QDELETED(X) (!X || X.gc_destroyed)
 #define QDESTROYING(X) (!X || X.gc_destroyed == GC_CURRENTLY_BEING_QDELETED)
+
+#define QDEL_NULL_LIST(x) if(x) { for(var/y in x) { qdel(y) }}; if(x) {x.Cut(); x = null } // Second x check to handle items that LAZYREMOVE on qdel.
+
+#define QDEL_NULL(x) if(x) { qdel(x) ; x = null }

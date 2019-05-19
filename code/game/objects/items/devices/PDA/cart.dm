@@ -34,7 +34,7 @@
 	var/list/stored_data = list()
 
 /obj/item/weapon/cartridge/Destroy()
-	qdel_null(radio)
+	QDEL_NULL(radio)
 	return ..()
 
 /obj/item/weapon/cartridge/engineering
